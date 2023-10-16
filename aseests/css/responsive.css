@@ -1,0 +1,121 @@
+
+
+@media screen and (max-width: 770px) {
+/* Header-Area start */
+
+.text-box h1 {
+	font-size: 20px;
+}
+.nav-links ul li {
+	display: block;
+}
+.nav-links {
+    background-color: #f44336;
+    height: 100vh;
+    width: 150px;
+	position: fixed;
+    top: 0;
+    right: -150px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+}
+nav .fa {
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.nav-links ul {
+    padding: 30px;
+}
+.text-box p {
+    font-size: 13px;
+  }
+
+/* Header-Area End */
+/* Course-Area Start */
+
+.Course .row {
+    flex-direction: column;
+}
+.Course h1 {
+    font-size: 28px;
+}
+
+/* Course-Area end */
+/* campus-Area start */
+
+.campus .row {
+    flex-direction: column;
+}
+.campus h1 {
+    font-size: 27px;
+}
+
+/* campus-Area end */
+/* facilities-Area Start */
+
+.facilities .row {
+    flex-direction: column;
+}
+
+
+/* facilities-Area end */
+/* Testimonial-Area Start */
+
+.testimonial .row {
+    flex-direction: column;
+}
+.testimonial h1 {
+    font-size: 23.5px;
+}
+.testimonial-col img {
+	margin-left: 0px;
+	margin-right: 15px;
+}
+.testimonial-col p {
+    font-size: 13px;
+    line-height: 20px;
+
+}
+/* Testimonial-Area end*/
+/* Call To Action-Area Start */
+
+.cta h1 {
+    font-size: 24px;
+}
+
+/* Call To Action-Area end */
+/* Footer-Area Start */
+
+/* about.html **************************************************************/
+
+.about-us .row {
+    flex-direction: column;
+}
+
+/* blog.html **************************************************************/
+
+.blog-content .row {
+    flex-direction: column;
+}
+.sub-header h1 {
+    font-size: 24px;
+}
+.contact-us .row {
+    flex-direction: column;  
+}
+.contact-col input, .contact-col textarea {
+    padding: 5px;
+    margin-bottom: 10px
+}
+.contact-col div h5 {
+    font-size: 17px;
+}
+.contact-col div p {
+    font-size: 12.5px;
+}
+
+}

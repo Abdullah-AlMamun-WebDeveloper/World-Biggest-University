@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World's Biggest University</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="aseests/image/icon-almamun.png" />
+  <link rel="stylesheet" type="text/css" href="aseests/css/font-awesome.min.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="aseests/css/normalize.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="aseests/css/style.css" media="all">
+  <link rel="stylesheet" type="text/css" href="aseests/css/responsive.css" media="all">
+</head>
+<body>
+<!-- Header-Area Start -->
+
+  <section class="sub-header">
+    <nav>
+      <a href="index.html">
+        <img src="./aseests/image/logo.png" alt="">
+      </a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+
+
+<!-- Header-Area end -->
+<!-- About Us Content -->
+
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>We are the world's largest university</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi explicabo fugit nobis deleniti veniam! Harum corporis optio ducimus ut consequatur voluptas, quas blanditiis, magnam possimus obcaecati ad, fugit dolores eveniet expedita. Magnam inventore pariatur neque at? Odit iusto expedita, dignissimos earum modi ad velit? Fuga eveniet repudiandae animi sapiente? Eum hic distinctio necessitatibus pariatur! Officiis?</p>
+        <a href="" class="hero-btn extra-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="./aseests/image/about.jpg" alt="">
+      </div>
+    </div>
+
+  </section>
+
+<!-- Footer-Area Start -->
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pellentesque all aliquet turpis nulla, eleifend faucibus est <br>sollicitudin ut. maecenas ut venenatis ex, et dapibus purus.</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+
+  </section>
+  
+
+
+
+
+
+
+
+<!--------JavaScrip for Toggle Menu--------->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
